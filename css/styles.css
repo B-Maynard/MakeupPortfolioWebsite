@@ -51,11 +51,13 @@ a {
 }
 
 #footer-container {
-    background-color:rgba(0, 0, 0, 0.2);
+    background-color:rgba(0, 0, 0, 0.5);
     width: 100%;
+    color: white;
 }
 
 i {
     margin-left: 2%;
     font-size: 1.5em;
+    color: white;
 }
