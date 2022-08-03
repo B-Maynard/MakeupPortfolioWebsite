@@ -61,3 +61,12 @@ i {
     font-size: 1.5em;
     color: white;
 }
+
+div > #insta, div > #prices {
+    display: none;
+}
+
+div > #insta {
+    width: 100%;
+    height: 100%;
+}
