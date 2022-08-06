@@ -19,13 +19,20 @@
     </head>
     <body class="d-flex flex-column">
         <div class="container flex-shrink-0 bodyContainer">
-            <p class="mt-5" id="header">Ella Mar Makeup</p>
-            <div class="container">
-              <div class="row">
-                <a id="home" onclick="changePage(this)" class="nav-link active col-4" href="#">Bio</a>
-                <a id="prices" onclick="changePage(this)" class="nav-link col-4" href="#">Prices</a>
-                <a id="insta" onclick="changePage(this)" class="nav-link col-4" href="#">Gallery</a>
-            </div>
+            <div class="navbar navbar-expand-lg">
+              <div class="container">
+                <div class="row">
+                  <p class="mt-5 col-8" id="header">Ella Mar Makeup</p>
+                  <button class="navbar-toggler col-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarData" aria-controls="navbarData" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                  </button>
+                </div>
+                <div id="navbarData" class="collapse navbar-collapse">
+                    <a id="home" onclick="changePage(this)" class="nav-link active col-4" href="#">Bio</a>
+                    <a id="prices" onclick="changePage(this)" class="nav-link col-4" href="#">Prices</a>
+                    <a id="insta" onclick="changePage(this)" class="nav-link col-4" href="#">Gallery</a>
+                </div>
+              </div>
             </div>
             <div id="home" class="container content">
               <img id="headerimg" class="border border-4 rounded-circle img-fluid" src="./imgs/headerimg.png" alt="" />

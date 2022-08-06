@@ -11,6 +11,16 @@
     .nav-link {
         width: 100%;
     }
+
+    #header {
+        font-size: 2em !important;
+    }
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    box-shadow: none;
 }
 
 html, body {
@@ -69,7 +79,11 @@ i {
     color: white;
 }
 
-.bodyContainer > #insta, .bodyContainer > #prices {
+.bi-list {
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.bodyContainer > div#insta, .bodyContainer > div#prices {
     display: none;
 }
 
