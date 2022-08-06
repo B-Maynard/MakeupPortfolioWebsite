@@ -70,3 +70,16 @@ div > #insta {
     width: 100%;
     height: 100%;
 }
+
+.card-text {
+    font-size: 1.25em;
+}
+
+.card {
+    margin-top: 3%;
+}
+
+#prices > .btn {
+    margin-top: 3%;
+    font-size: 1.5em;
+}
