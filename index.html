@@ -18,19 +18,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body class="d-flex flex-column">
-        <div class="container flex-shrink-0">
+        <div class="container flex-shrink-0 bodyContainer">
             <p class="mt-5" id="header">Ella Mar Makeup</p>
-            <ul class="nav justify-content-center">
-                <li id="home" onclick="changePage(this)" class="nav-item active col-2">
-                  <a class="nav-link" aria-current="page" href="#">Bio</a>
-                </li>
-                <li id="prices" onclick="changePage(this)" class="nav-item col-2">
-                  <a class="nav-link" href="#">Prices</a>
-                </li>
-                <li id="insta" onclick="changePage(this)" class="nav-item col-2">
-                  <a class="nav-link" href="#">Gallery</a>
-                </li>
-            </ul>
+            <div class="container">
+              <div class="row">
+                <a id="home" onclick="changePage(this)" class="nav-link active col-4" href="#">Bio</a>
+                <a id="prices" onclick="changePage(this)" class="nav-link col-4" href="#">Prices</a>
+                <a id="insta" onclick="changePage(this)" class="nav-link col-4" href="#">Gallery</a>
+            </div>
+            </div>
             <div id="home" class="container content">
               <img id="headerimg" class="border border-4 rounded-circle img-fluid" src="./imgs/headerimg.png" alt="" />
               <p class="mt-2" id="name">Imari Johnson</p>
@@ -38,7 +34,7 @@
               <p class="mt-5" id="biography">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad ea temporibus dolor numquam aspernatur veritatis eos dolore, saepe possimus magnam commodi nam voluptatem voluptatibus quis. Obcaecati et quo fuga. Temporibus.</p>
             </div>
             <div id="prices" class="container content">
-              <a href="mailto:makeupbyellamar@gmail.com?subject=Quote For Ella Mar Makeup Services&body=Fill out the below information for your Quote. Leave certain fields blank if not applicable.%0D%0A%0D%0AFirst and Last Name:%0D%0ADate of Event:%0D%0ALocation of Event:%0D%0AServices Requested (List all services requested, ex: Bride, Bridemaids, Mothers, etc.):%0D%0A# of Bridemaids (if applicable):%0D%0A# of Jr. Bridesmaids (if applicable):%0D%0A# of Mothers (if applicable):%0D%0A# of Flowergirls/12 and under (if applicable):" class="col-4 align-self-center btn border border-4">
+              <a href="mailto:makeupbyellamar@gmail.com?subject=Quote For Ella Mar Makeup Services&body=Fill out the below information for your Quote. Leave certain fields blank if not applicable.%0D%0A%0D%0AFirst and Last Name:%0D%0ADate of Event:%0D%0ALocation of Event:%0D%0AServices Requested (List all services requested, ex: Bride, Bridemaids, Mothers, etc.):%0D%0A# of Bridemaids (if applicable):%0D%0A# of Jr. Bridesmaids (if applicable):%0D%0A# of Mothers (if applicable):%0D%0A# of Flowergirls/12 and under (if applicable):" class="col align-self-center btn border border-4">
                 Get Quote
               </a>
               <div class="row">
