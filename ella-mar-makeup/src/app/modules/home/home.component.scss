@@ -1,0 +1,38 @@
+.home-wrapper {
+
+    .home-content {
+        width: 95%;
+        height: 95vh;
+        margin: 0 auto;
+        display: flex;
+
+        .home-left {
+            flex: 33;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+
+            .profile-img-container {
+                flex: 25;
+
+                .profile-img {
+                    height: 115px;
+                    width: 173px;
+                }
+            }
+
+            .home-links {
+                height: 100%;
+                flex: 50;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 50px;
+            }
+
+            .socials {
+                flex: 25;
+            }
+        }
+    }
+}

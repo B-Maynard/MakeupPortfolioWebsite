@@ -1,0 +1,20 @@
+<div class="home-wrapper">
+    <div class="home-content">
+        <div class="home-left">
+            <div class="profile-img-container">
+                <img class="profile-img" src="assets/ellamar.png">
+            </div>
+            <div class="home-links">
+                <div class="home-link" *ngFor="let link of homeLinks">
+                    <div routerLink="link?.path">
+                        {{link?.value}}
+                    </div>
+                </div>
+            </div>
+            <div class="socials">
+                <mat-icon>facebook</mat-icon>
+                <mat-icon>insta</mat-icon>
+            </div>
+        </div>
+    </div>
+</div>
